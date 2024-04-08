@@ -1,0 +1,12 @@
+:root {
+	--clr-black: #000000;
+	--clr-white: #ffffff;
+}
+
+.layout-contianer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	height: 100vh;
+}
