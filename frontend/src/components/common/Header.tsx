@@ -1,8 +1,15 @@
 import React from 'react'
+import { ModeToggle } from '../mode-toggle'
+import AvatarComponent from './AvatarComponent'
 
 function Header() {
 	return (
-		<div>Header</div>
+		<div>Header
+
+			<ModeToggle />
+
+			<AvatarComponent />
+		</div>
 	)
 }
 
