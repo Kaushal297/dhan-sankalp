@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/components/ThemeProvider"
 import './App.css'
 import Footer from './components/common/Footer'
 import Header from './components/common/Header'

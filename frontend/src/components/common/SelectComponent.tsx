@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Select, { StylesConfig } from 'react-select';
+import { ThemeProviderContext } from '../ThemeProvider';
 
 interface Option {
 	value: string;
@@ -16,7 +17,9 @@ interface Props {
 }
 
 const SelectComponent: React.FC<Props> = ({ options }) => {
-	const customStyles: StylesConfig = {
+	const { theme } = useContext(ThemeProviderContext);
+
+	const customStyles: StylesConfig<Option, false, Group> = {
 		control: (provided) => ({
 			...provided,
 			width: '100%',
@@ -24,7 +27,6 @@ const SelectComponent: React.FC<Props> = ({ options }) => {
 			border: '1px solid #ccc',
 			borderRadius: '5px',
 			fontSize: '16px',
-			backgroundColor: '#fff',
 		}),
 		option: (provided) => ({
 			...provided,
@@ -37,12 +39,21 @@ const SelectComponent: React.FC<Props> = ({ options }) => {
 		}),
 	};
 
+	const color = theme === 'dark' ? '#fff' : '#000'
+
 	return (
 		<Select
 			options={options}
 			styles={customStyles}
 			placeholder="Select an option"
 			isSearchable={true}
+			theme={(theme) => ({
+				...theme,
+				colors: {
+					...theme.colors,
+					primary: color,
+				},
+			})}
 		/>
 	);
 };
