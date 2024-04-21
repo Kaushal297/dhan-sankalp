@@ -4,11 +4,16 @@ import AvatarComponent from './AvatarComponent'
 
 function Header() {
 	return (
-		<div>Header
+		<div className='lc-header'>
 
-			<ModeToggle />
+			<div className='lch-logo'>Dhan Sankalp</div>
 
-			<AvatarComponent />
+			<div className='lch-avatars'>
+				<ModeToggle />
+
+				<AvatarComponent />
+			</div>
+
 		</div>
 	)
 }

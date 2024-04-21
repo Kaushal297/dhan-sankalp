@@ -20,7 +20,7 @@ const handleAddTransaction = () => {
 
 const Ledger: React.FC<Props> = () => {
 	return (
-		<div>
+		<div className='lc-content'>
 			<DateComponent />
 			<input type="text" placeholder='Enter transaction type' onKeyUp={handleAutoSuggestion} />
 			<input type="number" name="amount" />
