@@ -64,10 +64,9 @@ const Ledger: React.FC<Props> = () => {
 	const [selectedDate, setSelectedDate] = React.useState<Date | null>(null);
 	
 	const handleAddTransaction = () => {
-		const date = transactionRef.current?.valueAsDate;
 		const newRecord = {
 			'date': selectedDate,
-			'transaction_name': date?.toDateString() || '',
+			'transaction_name': `${transactionRef.current?.value}` || '',
 			'amount': amountRef.current?.valueAsNumber || 0,
 		};
 		setRecords((prevState: Record[]) => [...prevState, newRecord]);
@@ -75,6 +74,7 @@ const Ledger: React.FC<Props> = () => {
 	};
 	
 	const clearInputFields = () => {
+		setSelectedDate(null);
 		transactionRef.current!.value = '';
 		amountRef.current!.value = '0';
 	}
