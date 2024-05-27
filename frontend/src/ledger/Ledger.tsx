@@ -26,7 +26,18 @@ const columns: ColumnDef<Record>[] = [
 	{
 		accessorKey: "date",
 		header: () => <div>Date</div>,
+		cell: ({cell}) => {
+			const getDate:Date = cell.getValue() as Date;
 
+			const customDate = new Intl.DateTimeFormat('en-US', {
+				weekday: "long",
+				year: "numeric",
+				month: "long",
+				day: "numeric"
+			}).format(getDate);
+
+			return <div>{customDate}</div>
+		}
 	},
 	{
 		accessorKey: "transaction_name",
