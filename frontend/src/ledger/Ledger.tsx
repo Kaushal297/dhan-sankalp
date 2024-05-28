@@ -25,7 +25,7 @@ const handleAutoSuggestion = () => {
 const columns: ColumnDef<Record>[] = [
 	{
 		accessorKey: "date",
-		header: () => <div>Date</div>,
+		header: () => <div className='date-render'>Date</div>,
 		cell: ({cell}) => {
 			const getDate:Date = cell.getValue() as Date;
 
@@ -55,7 +55,7 @@ const columns: ColumnDef<Record>[] = [
 	},
 	{
 		accessorKey: "amount",
-		header: () => <div className="text-right">Amount</div>,
+		header: () => <div className="text-right amount-render">Amount</div>,
 		cell: ({ row }) => {
 			const amount = parseFloat(row.getValue("amount"))
 			const formatted = new Intl.NumberFormat("en-US", {
