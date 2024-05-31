@@ -1,19 +1,13 @@
-import { ThemeProvider } from "@/components/ThemeProvider"
-import './App.css'
-import Footer from './components/common/Footer'
-import Header from './components/common/Header'
-import Ledger from './ledger/Ledger'
+import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
+import "./App.css";
+
+const router = createRouter({ routeTree });
 
 function App() {
 	return (
-		<>
-			<ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-				<Header></Header>
-				<Ledger></Ledger>
-				<Footer></Footer>
-			</ThemeProvider>
-		</>
+		<RouterProvider router={router} />
 	)
 }
 
-export default App
+export default App;

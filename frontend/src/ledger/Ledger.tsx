@@ -4,13 +4,13 @@ import { Textarea } from "@/components/ui/textarea"
 import BadgeComponent from '@/components/common/BadgeComponent';
 import { Input } from "@/components/ui/input"
 import { DatePickerDemo } from '@/components/common/DatePicker';
-import { DataTable} from '@/components/common/reactTable';
+import { DataTable } from '@/components/common/reactTable';
 import { ArrowUpDown } from "lucide-react"
 import {
 	ColumnDef
 } from "@tanstack/react-table"
 
-interface Props {}
+interface Props { }
 
 interface Record {
 	date: Date | null,
@@ -26,8 +26,8 @@ const columns: ColumnDef<Record>[] = [
 	{
 		accessorKey: "date",
 		header: () => <div className='date-render'>Date</div>,
-		cell: ({cell}) => {
-			const getDate:Date = cell.getValue() as Date;
+		cell: ({ cell }) => {
+			const getDate: Date = cell.getValue() as Date;
 
 			const customDate = new Intl.DateTimeFormat('en-US', {
 				weekday: "long",
@@ -73,7 +73,7 @@ const Ledger: React.FC<Props> = () => {
 	const transactionRef = useRef<HTMLInputElement>(null);
 	const amountRef = useRef<HTMLInputElement>(null);
 	const [selectedDate, setSelectedDate] = React.useState<Date | null>(null);
-	
+
 	const handleAddTransaction = () => {
 		const newRecord = {
 			'date': selectedDate,
@@ -83,7 +83,7 @@ const Ledger: React.FC<Props> = () => {
 		setRecords((prevState: Record[]) => [...prevState, newRecord]);
 		clearInputFields();
 	};
-	
+
 	const clearInputFields = () => {
 		setSelectedDate(null);
 		transactionRef.current!.value = '';
@@ -95,8 +95,8 @@ const Ledger: React.FC<Props> = () => {
 	};
 
 	return (
-		<div className='lc-content'>
-			<div className="">
+		<div>
+			<div>
 				<div className="lc-container">
 					<DatePickerDemo onSelect={handleDateSelect} />
 					<Input ref={transactionRef} type="text" placeholder='Enter transaction type' onKeyUp={handleAutoSuggestion} />
