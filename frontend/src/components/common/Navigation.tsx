@@ -1,9 +1,7 @@
 import {
     NavigationMenu,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    navigationMenuTriggerStyle,
+    NavigationMenuItem, NavigationMenuList,
+    navigationMenuTriggerStyle
 } from "@/components/ui/navigation-menu"
 import { Link } from "@tanstack/react-router"
 
@@ -31,11 +29,11 @@ export const Navigation = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 {navTabs.map((navTab, navTabIndex) => (
-                    <Link to={navTab.path} key={navTabIndex}>
-                        <NavigationMenuItem>
-                            <NavigationMenuLink className={navigationMenuTriggerStyle()}>{navTab.tabName}</NavigationMenuLink>
-                        </NavigationMenuItem>
-                    </Link>
+                    <NavigationMenuItem>
+                        <Link to={navTab.path} key={navTabIndex} className={navigationMenuTriggerStyle()}>
+                            {navTab.tabName}
+                        </Link>
+                    </NavigationMenuItem>
                 ))}
             </NavigationMenuList>
         </NavigationMenu>
