@@ -6,10 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { SelectSingleEventHandler } from "react-day-picker";
-
-interface DatePickerProps {
-	onSelect: SelectSingleEventHandler;
-}
+import type {DatePickerProps} from '@/types'
 
 export const DatePickerDemo: React.FC<DatePickerProps> = ({ onSelect }) => {
 	const [date, setDate] = React.useState<Date | undefined>(undefined);

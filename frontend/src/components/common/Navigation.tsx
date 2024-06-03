@@ -29,8 +29,8 @@ export const Navigation = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 {navTabs.map((navTab, navTabIndex) => (
-                    <NavigationMenuItem>
-                        <Link to={navTab.path} key={navTabIndex} className={navigationMenuTriggerStyle()}>
+                    <NavigationMenuItem key={navTabIndex}>
+                        <Link to={navTab.path} className={navigationMenuTriggerStyle()}>
                             {navTab.tabName}
                         </Link>
                     </NavigationMenuItem>

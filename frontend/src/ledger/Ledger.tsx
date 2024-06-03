@@ -9,14 +9,7 @@ import { ArrowUpDown } from "lucide-react"
 import {
 	ColumnDef
 } from "@tanstack/react-table"
-
-interface Props { }
-
-interface Record {
-	date: Date | null,
-	transaction_name: string,
-	amount: number,
-}
+import type {Record, Props} from '@/types'
 
 const handleAutoSuggestion = () => {
 	console.log('it works');

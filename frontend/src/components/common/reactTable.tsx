@@ -1,6 +1,5 @@
 import React from "react"
 import {
-	ColumnDef,
 	ColumnFiltersState,
 	SortingState,
 	flexRender,
@@ -20,14 +19,8 @@ import {
 	TableRow,
 } from "@/components/ui/table"
 
+import type {DataTableProps} from '@/types'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-
-
-interface DataTableProps<TData, TValue> {
-	columns: ColumnDef<TData, TValue>[]
-	data: TData[]
-}
 
 export function DataTable<TData, TValue>({
 	columns,

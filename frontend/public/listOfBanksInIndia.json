@@ -1,0 +1,231 @@
+{
+    "PUBLIC_SECTOR_BANKS": {
+        "name": "Nationalised Banks of India",
+        "data": [
+            {
+                "bank": "Bank of Baroda",
+                "address": "Head Office Baroda Bhavan, RC Dutt Road, Alkapuri, Vadodara-390007"
+            },
+            {
+                "bank": "Bank of India",
+                "address": "C-5 G Block, Bandra Kurla Complex, Mumbai 400051, Maharashtra, India"
+            },
+            {
+                "bank": "Bank of Maharashtra",
+                "address": "Lok Mangal, 1501, Shivaji Nagar, Post Box No.919, Pune-411 005"
+            },
+            {
+                "bank": "Canara Bank",
+                "address": "112, Jayachamarajendra Road, Post Box No.6648, Bangalore-560 002"
+            },
+            {
+                "bank": "Central Bank of India",
+                "address": "Central Office, Chander Mukhi, Nariman Point, Mumbai-400 021"
+            },
+            {
+                "bank": "Indian Overseas Bank",
+                "address": "Central Office, 762, Anna Salai, P.B.No.3765, Chennai-600 002"
+            },
+            {
+                "bank": "Indian Bank",
+                "address": "Indian Bank Building, P.B.No.1384, 31, Rajaji Road, Chennai-600 001"
+            },
+            {
+                "bank": "Punjab National Bank",
+                "address": "7, Bhikaji Cama Place, Africa Avenue, New Delhi-110 066"
+            },
+            {
+                "bank": "Union Bank of India",
+                "address": "Head Office & Central Office, Union Bank Bhavan, 239, Vidhan Bhavan Marg, Nariman Point, Mumbai - 400 021"
+            },
+            {
+                "bank": "Punjab & Sind Bank",
+                "address": "Bank House, 4th floor, 21, Rajendra Place, New Delhi-110 008"
+            },
+            {
+                "bank": "UCO Bank",
+                "address": "Head Office, 10, Biplabi Trailokya Maharaj (BTM) Sarani, Kolkata – 700 001"
+            }
+        ]
+    },
+    "PRIVATE_BANKS": {
+        "name": "Financial Intermediaries Private - Indian Banks",
+        "data": [
+            {
+                "name": "Axis Bank Limited",
+                "address": "\"TRISHUL\", Third Floor, Opp. Samartheshwar Temple, Nr. Law Garden, Ellisbridge, Ahmedabad - 380 006 (Gujrat)"
+            },
+            {
+                "name": "Bandhan Bank Limited",
+                "address": "DN 32, Sector V, Salt Lake City, Kolkata – 700091 (West Bengal)"
+            },
+            {
+                "name": "CSB Bank Limited",
+                "address": "CSB Bhavan, P.O Box No. 502, St. Mary’s College Road, Thrissur - 680 020 (Kerala)"
+            },
+            {
+                "name": "City Union Bank Limited",
+                "address": "149, T S R (Big) Street, Post Box No 25, Kumbakonam –612 001 (Tamilnadu)"
+            },
+            {
+                "name": "DCB Bank Limited",
+                "address": "6th Floor, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai – 400013 (Maharashtra)"
+            },
+            {
+                "name": "Dhanlaxmi Bank Limited",
+                "address": "Post Box No 9, The Round, Naickanal, Thrissur – 680 001 (Kerala)"
+            },
+            {
+                "name": "Federal Bank Limited",
+                "address": "Federal Towers, Post Box No 103, Aluva – 683 101 (Kerala)"
+            },
+            {
+                "name": "HDFC Bank Limited",
+                "address": "Trade World, Kamala Mills Compound, Senapati Bapat Marg, Lower Parel, Mumbai – 400 013 (Maharashtra)"
+            },
+            {
+                "name": "ICICI Bank Limited",
+                "address": "Landmark, Race Course Circle, Vadodara 390 007 (Gujrat)"
+            },
+            {
+                "name": "IndusInd Bank Limited",
+                "address": "701, Solitaire Corporate Park, 167, Guru Hargovindji Marg, Andheri (East), Mumbai 400 093 (Maharashtra)"
+            },
+            {
+                "name": "IDFC FIRST Bank Limited",
+                "address": "KRM Tower, 7th Floor, No. 1 Harrington Road, Chetpet, Chennai- 600031 (Tamil Nadu)"
+            },
+            {
+                "name": "Jammu & Kashmir Bank Limited",
+                "address": "Maulana Azad Road, Srinagar – 190 001 (Jammu & Kashmir)"
+            },
+            {
+                "name": "Karnataka Bank Limited",
+                "address": "P B No 599, Mahaveera Circle, Kankanady Post, Mangalore – 575 002 (Karnataka)"
+            },
+            {
+                "name": "Karur Vysya Bank Limited",
+                "address": "Erode Road, Post Box No 21, Karur – 639 002 (Tamilnadu)"
+            },
+            {
+                "name": "Kotak Mahindra Bank Limited",
+                "address": "27BKC, C27, G Block, Bandra Kurla Complex, Bandra (E), Mumbai- 400051 (Maharashtra)"
+            },
+            {
+                "name": "Nainital Bank Limited",
+                "address": "Annex, 7 Oaks Building, Mallital, Nainital – 263 001 (Uttaranchal)"
+            },
+            {
+                "name": "RBL Bank Limited",
+                "address": "Mahavir, Shri Shahu Market Yard, Kolhapur – 416005 (Maharashtra)"
+            },
+            {
+                "name": "South Indian Bank Limited",
+                "address": "SIB House, T.B. Road, Mission Quarters, Post Box No 28, Thrissur – 680 001 (Kerala)"
+            },
+            {
+                "name": "Tamilnad Mercantile Bank Limited",
+                "address": "57, V.E. Road, Thoothukudi (Tuticorin)- 628 002 (Tamil Nadu)"
+            },
+            {
+                "name": "YES Bank Limited",
+                "address": "YES BANK Tower, IFC-2, 15th Floor, Senapati Bapat Marg, Elphinstone (W), Mumbai – 400 013 (Maharashtra)"
+            },
+            {
+                "name": "IDBI Bank Limited",
+                "address": "IDBI Tower, WTC Complex, Cuffe Parade, Colaba, Mumbai -400005 (Maharashtra)"
+            }
+        ]
+    },
+    "Local_Area_Banks": {
+        "name": "Local Area Banks (LABs)",
+        "data": [
+            {
+                "name": "Coastal Local Area Bank Ltd.",
+                "address": "D.No 59-12-6, \"Graceline\", Ghantasalavari Street, Gayatri Nagar, Vijayawada - 520008 (Andhra Pradesh)"
+            },
+            {
+                "name": "Krishna Bhima Samruddhi Local Area Bank Limited",
+                "address": "5-83/A2, Sara Complex, Yenugonda, Maheswari Theatre, Mahabubnagar, Telangana- 509 001"
+            }
+        ]
+    },
+    "Small_Finance_Banks": {
+        "name": "Small Finance Banks (SFBs)",
+        "data": [
+            {
+                "name": "Au Small Finance Bank Limited",
+                "address": "AU NEEV, 19-A Dhuleshwar Garden Ajmer Road, Jaipur- 302001 (Rajasthan)"
+            },
+            {
+                "name": "Capital Small Finance Bank Limited",
+                "address": "'MIDAS Corporate Park' 3rd Floor, 37, G.T.Road, Jalandhar – 144 001 (Punjab)"
+            },
+            {
+                "name": "Equitas Small Finance Bank Limited",
+                "address": "4th Floor, Spencer Plaza Phase II, No. 769, Mount Road Anna Salai, Chennai – 600002 (Tamil Nadu)"
+            },
+            {
+                "name": "ESAF Small Finance Bank Limited",
+                "address": "Hepzibah Complex, Mannuthy P.O, Thrissur – 680651 (Kerala)"
+            },
+            {
+                "name": "Suryoday Small Finance Bank Limited",
+                "address": "1101, Sharda Terraces, Plot 65, Sector 11, CBD Belapur, Navi Mumbai- 400 614 (Maharashtra)"
+            },
+            {
+                "name": "Ujjivan Small Finance Bank Limited",
+                "address": "Grape Garden, No. 27, 3rd ‘A’ Cross, 18th Main, Koramangala, 6th Block, Bengaluru-560095 (Karnataka)"
+            },
+            {
+                "name": "Utkarsh Small Finance Bank Limited",
+                "address": "S-24/1-2, First Floor, Mahavir Nagar Orderly Bazar, Near Mahavir Mandir, Varanasi -221002 (Uttar Pradesh)"
+            },
+            {
+                "name": "North East Small Finance Bank Limited",
+                "address": "1st & 3rd Floor, Fortune Central, Basistha Road, Basisthapur, Bylane No. 3, Beltola, Guwahati- 781 028"
+            },
+            {
+                "name": "Jana Small Finance Bank Limited",
+                "address": "Vaishnavi, No. 29, Union Street Off Infantry Road, Bengaluru- 560 001 (Karnataka)"
+            },
+            {
+                "name": "Shivalik Small Finance Bank Limited",
+                "address": "501, Salcon Aurum, Jasola District Centre, New Delhi - 110 025"
+            },
+            {
+                "name": "Unity Small Finance Bank Limited",
+                "address": "40, Basant Lok, Vasant Vihar, New Delhi - 110 057"
+            }
+        ]
+    },
+    "Payments_Banks": {
+        "name": "Payments Banks (PBs)",
+        "data": [
+            {
+                "name": "Airtel Payments Bank Limited",
+                "address": "Bharti Crescent, 1 Nelson Mandela Road, Vasant Kunj, Phase II, New Delhi- 110 070 (Delhi)"
+            },
+            {
+                "name": "India Post Payments Bank Limited",
+                "address": "Post Office, Speed Post Center Building, Market Road, New Delhi 110001 (Delhi)"
+            },
+            {
+                "name": "Fino Payments Bank Limited",
+                "address": "Mindspace Juinagar, Plot No Gen 2/1/F, Tower 1, 8th Floor, TTC Industrial Area, MIDC Shirwane, Juinagar, Navi Mumbai - 400 706"
+            },
+            {
+                "name": "Paytm Payments Bank Limited",
+                "address": "B-121, Sector 5, Noida – 201 301 (Uttar Pradesh)"
+            },
+            {
+                "name": "Jio Payments Bank Limited",
+                "address": "3rd Floor, Maker Chambers IV, 222 Nariman Point, Mumbai- 400 021 (Maharashtra)"
+            },
+            {
+                "name": "NSDL Payments Bank Limited",
+                "address": "4th Floor, 'A' Wing, Trade World, Kamala Mills Compound, Senapati Bapat Marg, Lower Parel, Mumbai- 400 013 (Maharashtra)"
+            }
+        ]
+    }
+}
