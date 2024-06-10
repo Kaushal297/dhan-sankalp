@@ -27,3 +27,11 @@ export interface Record {
 	transaction_name: string,
 	amount: number,
 }
+
+export interface SheetProps {
+	buttonText: String,
+	sheetTitleText: String,
+	SheetDescriptionText: String,
+	sheetBody: JSX.Element,
+
+}
